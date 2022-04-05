@@ -19,16 +19,22 @@ namespace CSF1HomeworkVer._2
 
             Console.WriteLine("Please enter some information below to do a Mad Lib...: \n");
 
+            Console.WriteLine("Enter a proper noun here:");
+            string properNoun = Console.ReadLine();
+            Console.WriteLine("Enter a verb with an -ing here:");
+            string verbIng = Console.ReadLine();
             Console.WriteLine("Enter a noun here:");
-            string noun = Console.ReadLine();
-            Console.WriteLine("Enter a verb here:");
+            string noun1 = Console.ReadLine();
+            Console.WriteLine("Enter a pronoun here:");
+            string pronoun1 = Console.ReadLine();
+            Console.WriteLine("Enter another noun here:");
+            string noun2 = Console.ReadLine();
+            Console.WriteLine("Enter another pronoun here:");
+            string pronoun2 = Console.ReadLine();
+            Console.WriteLine("And finally, please enter another verb here:");
             string verb = Console.ReadLine();
-            Console.WriteLine("Enter an adverb here:");
-            string adverb = Console.ReadLine();
-            //add more info
-            //make a creative sentence...
-            //too tired.......
-            Console.WriteLine($"There once was a {noun} that had a. ");
+            
+            Console.WriteLine($"One day {properNoun} was {verbIng} to the {noun1}. On the way, {pronoun1} saw a {noun2}. This was a surprise so {pronoun2} {verb} quickly.");
         }
     }
 }
